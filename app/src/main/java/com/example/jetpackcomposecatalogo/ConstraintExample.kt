@@ -61,6 +61,7 @@ fun ConstraintExample() {
 }
 
 
+
 @Composable
 fun ConstraintExampleGuide() {
     ConstraintLayout(Modifier.fillMaxSize()) {
@@ -77,6 +78,7 @@ fun ConstraintExampleGuide() {
             })
     }
 }
+
 
 @Composable
 fun ConstraintExampleBarrier() {
@@ -110,7 +112,6 @@ fun ConstraintExampleBarrier() {
 }
 
 
-@Preview
 @Composable
 fun ConstraintExampleChain() {
     ConstraintLayout(Modifier.fillMaxSize()) {
